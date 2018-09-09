@@ -1,0 +1,24 @@
+{
+    "name": "dudu/br-payment-gateways",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.3",
+        "phpunit/phpunit": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Costa",
+            "email": "cecostadev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BrPayments\\" : "src"
+        }
+    }
+    
+}
